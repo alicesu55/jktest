@@ -1,3 +1,3 @@
-Deploy Port: 3000
+#Do not use
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/starts-sh/jkinto)
+Do not use this project. This is for testing only.
