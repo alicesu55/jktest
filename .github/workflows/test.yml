@@ -1,4 +1,4 @@
-name: 'build-test'
+name: 'Dcokerfile compilation'
 on:
   pull_request:
   push:
@@ -11,14 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Use Alice's condom
-        uses: alicesu55/condom@test
-        with:
-          branch: condom
-        env:
-          REPO: self
-          branch: condom
-          FOLDER: dist
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: alicesu55/condom@v0.0.1
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
