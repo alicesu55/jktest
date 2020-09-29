@@ -1,3 +1,9 @@
-#Do not use
+https://app.kintohub.com/
 
-Do not use this project. This is for testing only.
+Deploy：
+
+![alice](https://github.com/yeahwu/kinto/blob/master/img/ali.jpg)
+
+ENV:
+
+![alice1](https://github.com/yeahwu/kinto/blob/master/img/ali2.PNG)
