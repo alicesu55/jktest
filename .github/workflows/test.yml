@@ -19,13 +19,14 @@ jobs:
           branch: condom
           FOLDER: dist
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: push
-        uses: github-actions-x/commit@v2.7
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          push-branch: 'compiled2'
-          commit-message: 'publish'
-          force-add: 'true'
-          name: Alice Su
-          email: my.github@email.com 
-          rebase: 'true
+          force: true
+          branch: compiled
+          github_token: ${{ secrets.GITHUB_TOKEN }}
