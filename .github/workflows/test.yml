@@ -29,5 +29,6 @@ jobs:
           force-add: 'true'
           name: commiter name
           email: my.github@email.com 
+          rebase: 'true
 
 
