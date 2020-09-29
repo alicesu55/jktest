@@ -21,10 +21,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             # Deploy to local repo
       - name: push
-        uses: dciborow/commit@0.0.2
+        uses: github-actions-x/commit@v2.7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           push-branch: 'compiled'
-          commit-message: 'publish the compiled version'
+          commit-message: 'publish'
           force-add: 'true'
-          force-push: 'true'
+
+
