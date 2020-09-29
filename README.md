@@ -2,7 +2,7 @@
 
 V2ray deployed to Kintohub and Heroku.
 
-https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/yeahwu/jktest)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/yeahwu/jktest)
 
 https://app.kintohub.com/
 
