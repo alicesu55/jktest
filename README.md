@@ -1,3 +1,7 @@
+[Twitter](https://twitter.com/alicesu55)
+
+[Telegram Group](https://t.me/starts_sh_group)
+
 V2ray deployed to Kintohub.
 
 https://app.kintohub.com/
