@@ -19,7 +19,6 @@ jobs:
           branch: condom
           FOLDER: dist
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            # Deploy to local repo
       - name: push
         uses: github-actions-x/commit@v2.7
         with:
@@ -30,5 +29,3 @@ jobs:
           name: Alice Su
           email: my.github@email.com 
           rebase: 'true
-
-
