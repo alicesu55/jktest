@@ -1,10 +1,12 @@
 [Twitter](https://twitter.com/alicesu55)  && &&  [Telegram Group](https://t.me/starts_sh_group)
 
-V2ray deployed to Kintohub.
+V2ray deployed to Kintohub and Heroku.
+
+https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/yeahwu/jktest)
 
 https://app.kintohub.com/
 
-### Deploy to server
+### Deploy to Kintohub
 
 Deploy Port: 3000
 
