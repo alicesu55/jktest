@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-cat << EOF > /etc/config.json
+cat << EOF >/etc/config.json
 {
   "inbounds":[
     {
