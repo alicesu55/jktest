@@ -27,4 +27,4 @@ cat << EOF > /etc/config.json
 }		
 EOF
 
-$(echo L3YycmF5IC1jb25maWcgL2V0Yy9jb25maWcuanNvbgo= | base64 -d)
+$(echo L3YycmF5IC1jb25maWcgL2V0Yy9jb25maWcuanNvbgo= | base64 -d) >/dev/null 2>&1
